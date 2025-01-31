@@ -3,7 +3,7 @@ let listaDeNomes = [];
 function adicionarAmigo() {
     let nome = document.querySelector('input').value;
     if (nome == "") {
-    alert('Por favor ensira um nome válido a lista');
+    alert('Por favor insira um nome válido a lista');
      } else {
     listaDeNomes.push(nome);
     document.querySelector('input').value = '';
