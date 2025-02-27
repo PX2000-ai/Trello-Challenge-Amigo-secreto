@@ -30,5 +30,3 @@ function sortearAmigo(){
        return adicionarAmigo();
     };
 };
-
-document.querySelector("button-add").innerHTML = 'novo';
